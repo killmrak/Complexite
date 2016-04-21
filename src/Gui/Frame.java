@@ -1,5 +1,5 @@
 package Gui;
-//encule
+
 import DSatur.GrapheDSat;
 import Graphe.Arret;
 import Graphe.Sommet;
@@ -323,6 +323,7 @@ private void delete3ActionPerformed(java.awt.event.ActionEvent evt){
         jPanel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Projet Complexite");
 
         methode_1.setText("Backtracking");
         methode_1.addActionListener(new java.awt.event.ActionListener() {
